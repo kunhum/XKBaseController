@@ -59,14 +59,14 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param backButtonImage 图片
  */
-- (void)xk_setNavigationBarBackButtonImage:(UIImage *)backButtonImage;
++ (void)xk_setNavigationBarBackButtonImage:(UIImage *)backButtonImage;
 
 /**
  设置返回手势要忽略的类
 
  @param ignoredClass 类集合
  */
-- (void)xk_setNavigationBarBackGestureIgnoredClass:(NSArray <Class>*)ignoredClass;
++ (void)xk_setNavigationBarBackGestureIgnoredClass:(NSArray <Class>*)ignoredClass;
 
 ///导航栏返回按钮图片
 @property (nonatomic, strong) UIImage *navigationBarBackButtonImage;
