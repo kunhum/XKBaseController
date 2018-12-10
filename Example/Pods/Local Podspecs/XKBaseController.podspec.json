@@ -1,0 +1,22 @@
+{
+  "name": "XKBaseController",
+  "version": "0.1.0",
+  "summary": "A short description of XKBaseController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kunhum/XKBaseController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kunhum": "842222367@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kunhum/XKBaseController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XKBaseController/Classes/**/*"
+}

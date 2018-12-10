@@ -1,0 +1,16 @@
+PODS:
+  - XKBaseController (0.1.0)
+
+DEPENDENCIES:
+  - XKBaseController (from `../`)
+
+EXTERNAL SOURCES:
+  XKBaseController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKBaseController: 728f56987327fb898d6c7e90781b27445913c85f
+
+PODFILE CHECKSUM: baa0d064f8baedcd105c6d6f09ffb5b581762653
+
+COCOAPODS: 1.5.3

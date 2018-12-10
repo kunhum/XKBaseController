@@ -24,6 +24,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E13548F621BE0CF800FBFF09 /* XKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548F021BE0CF800FBFF09 /* XKBaseViewController.m */; };
+		E13548F721BE0CF800FBFF09 /* XKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548F121BE0CF800FBFF09 /* XKBaseTabBarController.m */; };
+		E13548F821BE0CF800FBFF09 /* XKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548F221BE0CF800FBFF09 /* XKBaseNavigationController.m */; };
+		E13548FB21BE0E6200FBFF09 /* XKBaseControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */; };
+		E13548FE21BE1A7800FBFF09 /* XKIgnoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548FD21BE1A7800FBFF09 /* XKIgnoredViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DC76A3271362EFCD38E9581 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DC76A3271362EFCD38E9581 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C4EDF7F125330DE10008CAD /* Pods-XKBaseController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XKBaseController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKBaseController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,15 +63,25 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65DA8DF58D5CCC65002370CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65DA8DF58D5CCC65002370CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		792F2E5EBAA001AE0D00FE25 /* XKBaseController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKBaseController.podspec; path = ../XKBaseController.podspec; sourceTree = "<group>"; };
+		792F2E5EBAA001AE0D00FE25 /* XKBaseController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKBaseController.podspec; path = ../XKBaseController.podspec; sourceTree = "<group>"; };
 		81EB8746BA4BD3CB2E4CDC98 /* Pods-XKBaseController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9926D00F3D0759C4FD99AC13 /* Pods-XKBaseController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKBaseController_Tests/Pods-XKBaseController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA388545E8E5B9E35F2FD273 /* Pods_XKBaseController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93E36CA4607BCA0BEA48BAB /* Pods-XKBaseController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKBaseController_Tests/Pods-XKBaseController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBE47D323F11E6AB100327D7 /* Pods_XKBaseController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13548F021BE0CF800FBFF09 /* XKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKBaseViewController.m; sourceTree = "<group>"; };
+		E13548F121BE0CF800FBFF09 /* XKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKBaseTabBarController.m; sourceTree = "<group>"; };
+		E13548F221BE0CF800FBFF09 /* XKBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKBaseNavigationController.m; sourceTree = "<group>"; };
+		E13548F321BE0CF800FBFF09 /* XKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKBaseViewController.h; sourceTree = "<group>"; };
+		E13548F421BE0CF800FBFF09 /* XKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKBaseNavigationController.h; sourceTree = "<group>"; };
+		E13548F521BE0CF800FBFF09 /* XKBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKBaseTabBarController.h; sourceTree = "<group>"; };
+		E13548F921BE0E6200FBFF09 /* XKBaseControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKBaseControllerConfig.h; sourceTree = "<group>"; };
+		E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKBaseControllerConfig.m; sourceTree = "<group>"; };
+		E13548FC21BE1A7800FBFF09 /* XKIgnoredViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKIgnoredViewController.h; sourceTree = "<group>"; };
+		E13548FD21BE1A7800FBFF09 /* XKIgnoredViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKIgnoredViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +158,14 @@
 		6003F593195388D20070C39A /* Example for XKBaseController */ = {
 			isa = PBXGroup;
 			children = (
+				E13548EF21BE0CF800FBFF09 /* XKBaseController */,
 				6003F59C195388D20070C39A /* XKAppDelegate.h */,
 				6003F59D195388D20070C39A /* XKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XKViewController.h */,
 				6003F5A6195388D20070C39A /* XKViewController.m */,
+				E13548FC21BE1A7800FBFF09 /* XKIgnoredViewController.h */,
+				E13548FD21BE1A7800FBFF09 /* XKIgnoredViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +212,22 @@
 				65DA8DF58D5CCC65002370CF /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E13548EF21BE0CF800FBFF09 /* XKBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E13548F921BE0E6200FBFF09 /* XKBaseControllerConfig.h */,
+				E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */,
+				E13548F521BE0CF800FBFF09 /* XKBaseTabBarController.h */,
+				E13548F121BE0CF800FBFF09 /* XKBaseTabBarController.m */,
+				E13548F421BE0CF800FBFF09 /* XKBaseNavigationController.h */,
+				E13548F221BE0CF800FBFF09 /* XKBaseNavigationController.m */,
+				E13548F321BE0CF800FBFF09 /* XKBaseViewController.h */,
+				E13548F021BE0CF800FBFF09 /* XKBaseViewController.m */,
+			);
+			name = XKBaseController;
+			path = ../../XKBaseController/Classes/XKBaseController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,8 +402,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XKAppDelegate.m in Sources */,
+				E13548F721BE0CF800FBFF09 /* XKBaseTabBarController.m in Sources */,
 				6003F5A7195388D20070C39A /* XKViewController.m in Sources */,
+				E13548F621BE0CF800FBFF09 /* XKBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E13548F821BE0CF800FBFF09 /* XKBaseNavigationController.m in Sources */,
+				E13548FE21BE1A7800FBFF09 /* XKIgnoredViewController.m in Sources */,
+				E13548FB21BE0E6200FBFF09 /* XKBaseControllerConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XKBaseController/XKBaseController-Prefix.pch";
 				INFOPLIST_FILE = "XKBaseController/XKBaseController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XKBaseController/XKBaseController-Prefix.pch";
 				INFOPLIST_FILE = "XKBaseController/XKBaseController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

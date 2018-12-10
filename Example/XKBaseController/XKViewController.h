@@ -6,8 +6,10 @@
 //  Copyright (c) 2018 kunhum. All rights reserved.
 //
 
+#import "XKBaseViewController.h"
+
 @import UIKit;
 
-@interface XKViewController : UIViewController
+@interface XKViewController : XKBaseViewController
 
 @end

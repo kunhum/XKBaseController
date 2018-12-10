@@ -7,12 +7,18 @@
 //
 
 #import "XKAppDelegate.h"
+#import "XKBaseControllerConfig.h"
 
 @implementation XKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [XKBaseControllerConfig xk_setTabbarBarTintColor:[UIColor yellowColor]];
+    [XKBaseControllerConfig xk_setTabbarTintColor:[UIColor redColor]];
+    [[XKBaseControllerConfig shareConfig] xk_setNavigationBarBackButtonImage:[UIImage imageNamed:@"ic_other_bar_back_btn_brown"]];
+    [[XKBaseControllerConfig shareConfig] xk_setNavigationBarBackGestureIgnoredClass:@[NSClassFromString(@"XKIgnoredViewController")]];
     return YES;
 }
 
