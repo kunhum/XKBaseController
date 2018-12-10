@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XKBaseController_Example' do
+  pod 'XKBaseController', :path => '../'
+
+  target 'XKBaseController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
