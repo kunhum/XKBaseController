@@ -44,12 +44,12 @@
 
 #pragma mark - navigation controller
 #pragma mark 设置导航栏返回按钮图片
-- (void)xk_setNavigationBarBackButtonImage:(UIImage *)backButtonImage {
++ (void)xk_setNavigationBarBackButtonImage:(UIImage *)backButtonImage {
     [XKBaseControllerConfig shareConfig].navigationBarBackButtonImage = backButtonImage;
 }
 
 #pragma mark 设置返回手势要忽略的类
-- (void)xk_setNavigationBarBackGestureIgnoredClass:(NSArray <Class>*)ignoredClass {
++ (void)xk_setNavigationBarBackGestureIgnoredClass:(NSArray <Class>*)ignoredClass {
     [XKBaseControllerConfig shareConfig].navigationBarBackGestureIgnoredClass = ignoredClass;
 }
 
