@@ -1,6 +1,6 @@
 {
   "name": "XKBaseController",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "summary": "OC常用基类",
   "description": "Object-C中，基类常用配置",
   "homepage": "https://github.com/kunhum/XKBaseController",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/kunhum/XKBaseController.git",
-    "tag": "1.0.4"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XKBaseController/Classes/XKBaseController/*.{h,m}"
+  "source_files": "XKBaseController/Classes/XKBaseController/*.{h,m}",
+  "dependencies": {
+    "XKCategory": [
+
+    ]
+  }
 }

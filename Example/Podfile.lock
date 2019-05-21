@@ -1,15 +1,50 @@
 PODS:
-  - XKBaseController (1.0.4)
+  - MJRefresh (3.2.0)
+  - XKBaseController (1.0.5):
+    - XKCategory
+  - XKCategory (1.1.3):
+    - "XKCategory/NSDate+xkCategory (= 1.1.3)"
+    - "XKCategory/NSString+xkCategory (= 1.1.3)"
+    - "XKCategory/UIButton+xkCategory (= 1.1.3)"
+    - XKCategory/UIColorHex (= 1.1.3)
+    - "XKCategory/UIImage+xkCategory (= 1.1.3)"
+    - "XKCategory/UILabel+xkCategory (= 1.1.3)"
+    - "XKCategory/UINavigationController+xkCategory (= 1.1.3)"
+    - "XKCategory/UIScrollView+xkCategory (= 1.1.3)"
+    - "XKCategory/UITextFieldView+xkCategory (= 1.1.3)"
+    - "XKCategory/UIView+xkCategory (= 1.1.3)"
+  - "XKCategory/NSDate+xkCategory (1.1.3)"
+  - "XKCategory/NSString+xkCategory (1.1.3)"
+  - "XKCategory/UIButton+xkCategory (1.1.3)"
+  - XKCategory/UIColorHex (1.1.3)
+  - "XKCategory/UIImage+xkCategory (1.1.3)"
+  - "XKCategory/UILabel+xkCategory (1.1.3)"
+  - "XKCategory/UINavigationController+xkCategory (1.1.3)"
+  - "XKCategory/UIScrollView+xkCategory (1.1.3)":
+    - MJRefresh
+  - "XKCategory/UITextFieldView+xkCategory (1.1.3)":
+    - XKInsertLimit
+  - "XKCategory/UIView+xkCategory (1.1.3)"
+  - XKInsertLimit (1.0.5)
 
 DEPENDENCIES:
   - XKBaseController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - XKCategory
+    - XKInsertLimit
 
 EXTERNAL SOURCES:
   XKBaseController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKBaseController: 2c85cfef8dcc69812b15659f70e6aff563f93ccc
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  XKBaseController: 5d4a4b268413ede109b94202176b3284f0e0f506
+  XKCategory: 53f7add863d461e2a57af08305dd375a87a8b69a
+  XKInsertLimit: 5864d08ea65750cf40a5c00f06ceac4c842a61fa
 
 PODFILE CHECKSUM: baa0d064f8baedcd105c6d6f09ffb5b581762653
 
