@@ -29,6 +29,7 @@
 		E13548F821BE0CF800FBFF09 /* XKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548F221BE0CF800FBFF09 /* XKBaseNavigationController.m */; };
 		E13548FB21BE0E6200FBFF09 /* XKBaseControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */; };
 		E13548FE21BE1A7800FBFF09 /* XKIgnoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13548FD21BE1A7800FBFF09 /* XKIgnoredViewController.m */; };
+		E16B112C2293B5930083B9B3 /* XKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16B112B2293B5930083B9B3 /* XKBaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKBaseControllerConfig.m; sourceTree = "<group>"; };
 		E13548FC21BE1A7800FBFF09 /* XKIgnoredViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKIgnoredViewController.h; sourceTree = "<group>"; };
 		E13548FD21BE1A7800FBFF09 /* XKIgnoredViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKIgnoredViewController.m; sourceTree = "<group>"; };
+		E16B112A2293B5930083B9B3 /* XKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKBaseTableViewController.h; sourceTree = "<group>"; };
+		E16B112B2293B5930083B9B3 /* XKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKBaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 		E13548EF21BE0CF800FBFF09 /* XKBaseController */ = {
 			isa = PBXGroup;
 			children = (
+				E16B112A2293B5930083B9B3 /* XKBaseTableViewController.h */,
+				E16B112B2293B5930083B9B3 /* XKBaseTableViewController.m */,
 				E13548F921BE0E6200FBFF09 /* XKBaseControllerConfig.h */,
 				E13548FA21BE0E6200FBFF09 /* XKBaseControllerConfig.m */,
 				E13548F521BE0CF800FBFF09 /* XKBaseTabBarController.h */,
@@ -407,6 +412,7 @@
 				E13548F621BE0CF800FBFF09 /* XKBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				E13548F821BE0CF800FBFF09 /* XKBaseNavigationController.m in Sources */,
+				E16B112C2293B5930083B9B3 /* XKBaseTableViewController.m in Sources */,
 				E13548FE21BE1A7800FBFF09 /* XKIgnoredViewController.m in Sources */,
 				E13548FB21BE0E6200FBFF09 /* XKBaseControllerConfig.m in Sources */,
 			);

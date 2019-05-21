@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38C6C4B9D8E4EF161F87182F75F9F5E9 /* XKBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0802D9D50547835FB7013FF87CBEE8EB /* XKBaseController-dummy.m */; };
+		046941D17D3BB4D63058C030AB98417B /* XKBaseTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E944DB1DB8E8CF9F8699D0606373038 /* XKBaseTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103B9646154ACE7C956EA85CB8F6B75A /* XKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46749C95C901FE63767022722AC20C7 /* XKBaseNavigationController.m */; };
+		17C0CC2C8BABDF2D260070FAA79C560F /* XKBaseControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E51A3A844141B2293A8894A916CBE5 /* XKBaseControllerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E3BDBAF5E86F2F6018C7A58FF014F13 /* Pods-XKBaseController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3564FC60928EF747D67EAA69EE67DA /* Pods-XKBaseController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4187A1B8CB0F7FD3A85FAA2C318BE456 /* Pods-XKBaseController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D2588220ED14E850969F024FCBAA8A /* Pods-XKBaseController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D753C2DE364A6583161E1699E850D5 /* XKBaseControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860411C44FCC152B4890BBAFB88248C /* XKBaseControllerConfig.m */; };
+		4713B1B10AE037749967F222E6D0759B /* XKBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 332647C3BA8DF86EE6377097892D98AE /* XKBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5704FECA1DFFA3A423020D43E5B5040B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5AD99D44B669CE02D315A1CCE714DC71 /* XKBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC481736D3B3803838BE33537C3F1128 /* XKBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64209BFA02531285BFD20190AA13F98D /* XKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EAEB339C78A97D5864173514E67E62 /* XKBaseTableViewController.m */; };
+		782B9F3E8739625BD053907B6CC1FF1E /* XKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C70F2E52ECF1324E9E3782F1E5C8E0C /* XKBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD643880B2F776E24894C1736E0A646 /* XKBaseController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D099C2005162026A905532FD229EB5 /* XKBaseController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83E90A7608FBAF1E37BC050F99649051 /* Pods-XKBaseController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B611FF376B04EA88D082054B9F5347F3 /* Pods-XKBaseController_Tests-dummy.m */; };
+		8CE2DDC01E69B3DA63D26C6DE8940A41 /* XKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97C79EBE74CB2D0B4912C1F7DBF50B /* XKBaseViewController.m */; };
+		900F4E20FAA3619ECD4A85C82711F3EF /* XKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA40A1006E2705A1782CEEFF1A5915 /* XKBaseTabBarController.m */; };
 		93CD567AC9B55286B49DBC430296FAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9FAE6A799AADB8A5C21B195F39B83ED1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C48B6CF635F73D87F424E95A2D9ED /* ReplaceMe.m */; };
 		A8E9E6B60A8141B72540233CE342A893 /* Pods-XKBaseController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99042C5835CA2C157F7222E9444E298C /* Pods-XKBaseController_Example-dummy.m */; };
-		DABFA6904DAA52EF3EFF0C3F00574BC1 /* XKBaseController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BCE5FAE15EDCA689ED43DD2275685E /* XKBaseController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70C93DB5FA86D101C929394025953A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F86705203831F15C726FEAA558D2811E /* XKBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDB90A36FE32B35834793D41575A5 /* XKBaseController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,40 +47,49 @@
 
 /* Begin PBXFileReference section */
 		03AEDABAC348F51A5BF04BE60CBAD3E3 /* Pods-XKBaseController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0802D9D50547835FB7013FF87CBEE8EB /* XKBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseController-dummy.m"; sourceTree = "<group>"; };
-		24769F88335D66D2C85A177D19819ADB /* XKBaseController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseController-prefix.pch"; sourceTree = "<group>"; };
+		0E944DB1DB8E8CF9F8699D0606373038 /* XKBaseTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKBaseTabBarController.h; path = XKBaseController/Classes/XKBaseController/XKBaseTabBarController.h; sourceTree = "<group>"; };
+		17E51A3A844141B2293A8894A916CBE5 /* XKBaseControllerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKBaseControllerConfig.h; path = XKBaseController/Classes/XKBaseController/XKBaseControllerConfig.h; sourceTree = "<group>"; };
+		1860411C44FCC152B4890BBAFB88248C /* XKBaseControllerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKBaseControllerConfig.m; path = XKBaseController/Classes/XKBaseController/XKBaseControllerConfig.m; sourceTree = "<group>"; };
+		1D97C79EBE74CB2D0B4912C1F7DBF50B /* XKBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKBaseViewController.m; path = XKBaseController/Classes/XKBaseController/XKBaseViewController.m; sourceTree = "<group>"; };
 		263BBA5E61B338BE583CC7923BFAAE88 /* Pods-XKBaseController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		348670D6AF009DD3CE53008BF5FDB2CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		36602330C4BE27BC06E410D662851E01 /* XKBaseController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseController.xcconfig; sourceTree = "<group>"; };
+		31C31A68ACAABE6BE89D4BF54211ADF8 /* XKBaseController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseController-prefix.pch"; sourceTree = "<group>"; };
+		332647C3BA8DF86EE6377097892D98AE /* XKBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKBaseNavigationController.h; path = XKBaseController/Classes/XKBaseController/XKBaseNavigationController.h; sourceTree = "<group>"; };
 		3C3564FC60928EF747D67EAA69EE67DA /* Pods-XKBaseController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKBaseController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3E98BDBFB93DD0974B83C41981363009 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		47BCE5FAE15EDCA689ED43DD2275685E /* XKBaseController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseController-umbrella.h"; sourceTree = "<group>"; };
+		42D099C2005162026A905532FD229EB5 /* XKBaseController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseController-umbrella.h"; sourceTree = "<group>"; };
+		52A11C2CED2097003A7610A1971A583A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EE77EC14890CD29B9C24079ABE21592 /* Pods-XKBaseController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		620E1FE9C7A233BBB500BD79CCC865EC /* Pods-XKBaseController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseController_Example.modulemap"; sourceTree = "<group>"; };
 		62BD53B2F63BFBAC472EDB78182F5AB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E0A1FB36D3ABB5635B964FA4C864DB /* Pods-XKBaseController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		66F286401E641A116DC32C3A82CB7AED /* XKBaseController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseController.modulemap; sourceTree = "<group>"; };
 		67F4DF1A812C994DB15CA3E448D69E06 /* Pods-XKBaseController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseController_Tests.modulemap"; sourceTree = "<group>"; };
+		6C70F2E52ECF1324E9E3782F1E5C8E0C /* XKBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKBaseViewController.h; path = XKBaseController/Classes/XKBaseController/XKBaseViewController.h; sourceTree = "<group>"; };
 		6EC182BBC3D2FCB288DCEF28622BB669 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A122240B9CD156071397D894EA38B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7B919E58BA0D022632F4AAAA506527F4 /* Pods-XKBaseController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7BE2B24DDF4F14BB91E87F288C0E9EA5 /* Pods_XKBaseController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE2B24DDF4F14BB91E87F288C0E9EA5 /* Pods_XKBaseController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseController_Tests.framework; path = "Pods-XKBaseController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C94D4450A4485754C2DD2E8F854F330 /* Pods-XKBaseController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		885C959AF8F04E59A5F5489AA18A15BB /* XKBaseController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XKBaseController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		885C959AF8F04E59A5F5489AA18A15BB /* XKBaseController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKBaseController.framework; path = XKBaseController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D166DE72DBD1E06573E837A645212D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F45B80B33CC9C04A24806B79A60AD0 /* XKBaseController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XKBaseController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99042C5835CA2C157F7222E9444E298C /* Pods-XKBaseController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseController_Example-dummy.m"; sourceTree = "<group>"; };
 		992D6BB50FA8B9B6B4ADC4833E21C43E /* Pods-XKBaseController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9BEF994CB7D60857593ED6CC77251F1A /* Pods_XKBaseController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEF994CB7D60857593ED6CC77251F1A /* Pods_XKBaseController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseController_Example.framework; path = "Pods-XKBaseController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA40A1006E2705A1782CEEFF1A5915 /* XKBaseTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKBaseTabBarController.m; path = XKBaseController/Classes/XKBaseController/XKBaseTabBarController.m; sourceTree = "<group>"; };
 		A5D2588220ED14E850969F024FCBAA8A /* Pods-XKBaseController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKBaseController_Example-umbrella.h"; sourceTree = "<group>"; };
 		AEA147E73867089CF1B4634A79DA9A14 /* Pods-XKBaseController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3FCC75147E5E7F2CB89090409AF08F9 /* XKBaseController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XKBaseController.podspec; sourceTree = "<group>"; };
 		B58B132F8EA2CD3E0F4CA1B4E4E31E83 /* Pods-XKBaseController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B611FF376B04EA88D082054B9F5347F3 /* Pods-XKBaseController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseController_Tests-dummy.m"; sourceTree = "<group>"; };
 		B97DD745A95303A1217356402D354AFA /* Pods-XKBaseController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D06C48B6CF635F73D87F424E95A2D9ED /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XKBaseController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		EDE4887BAD37FAC1EB7747CEC7F2837F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F043A6A102D90536473923CFFEEBF806 /* XKBaseController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseController.modulemap; sourceTree = "<group>"; };
+		C46749C95C901FE63767022722AC20C7 /* XKBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKBaseNavigationController.m; path = XKBaseController/Classes/XKBaseController/XKBaseNavigationController.m; sourceTree = "<group>"; };
+		D2EAEB339C78A97D5864173514E67E62 /* XKBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKBaseTableViewController.m; path = XKBaseController/Classes/XKBaseController/XKBaseTableViewController.m; sourceTree = "<group>"; };
+		DC481736D3B3803838BE33537C3F1128 /* XKBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKBaseTableViewController.h; path = XKBaseController/Classes/XKBaseController/XKBaseTableViewController.h; sourceTree = "<group>"; };
 		F0A96D40FE2FBBAB1298E5AF17926B3F /* Pods-XKBaseController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseController_Tests-resources.sh"; sourceTree = "<group>"; };
+		FA8EEDA50F7766B51C8989BE09949868 /* XKBaseController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseController.xcconfig; sourceTree = "<group>"; };
 		FAD02715BCCD8C1D4B8BA97DB9C59AA2 /* Pods-XKBaseController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseController_Example-resources.sh"; sourceTree = "<group>"; };
+		FC7DDB90A36FE32B35834793D41575A5 /* XKBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +138,10 @@
 			path = "Target Support Files/Pods-XKBaseController_Tests";
 			sourceTree = "<group>";
 		};
-		18BC3525EBC5C438D332840CF6ECF43D /* Development Pods */ = {
+		1537AF334A9846B4F79205ECC5FFE17F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8EDEDE5E6CC9DF2230FFFCEF2E52844D /* XKBaseController */,
+				F435D6B5BF1067204F783C22250B3F19 /* XKBaseController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -146,16 +164,6 @@
 			path = "Target Support Files/Pods-XKBaseController_Example";
 			sourceTree = "<group>";
 		};
-		3A59EA4864B91843F2006E651B8497C4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3E98BDBFB93DD0974B83C41981363009 /* LICENSE */,
-				348670D6AF009DD3CE53008BF5FDB2CF /* README.md */,
-				B3FCC75147E5E7F2CB89090409AF08F9 /* XKBaseController.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,11 +172,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		61F5CCB6B07E987A2767FB3CC3A5F79F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91D166DE72DBD1E06573E837A645212D /* Info.plist */,
+				66F286401E641A116DC32C3A82CB7AED /* XKBaseController.modulemap */,
+				FA8EEDA50F7766B51C8989BE09949868 /* XKBaseController.xcconfig */,
+				FC7DDB90A36FE32B35834793D41575A5 /* XKBaseController-dummy.m */,
+				31C31A68ACAABE6BE89D4BF54211ADF8 /* XKBaseController-prefix.pch */,
+				42D099C2005162026A905532FD229EB5 /* XKBaseController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKBaseController";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				18BC3525EBC5C438D332840CF6ECF43D /* Development Pods */,
+				1537AF334A9846B4F79205ECC5FFE17F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8B67514AF447F8CD25A8EE11721C6762 /* Products */,
 				86E4B737F136679B3B619ADFEA0ECF8D /* Targets Support Files */,
@@ -184,6 +206,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		87D1A006CF2ED3F8A072B7118521D83C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52A11C2CED2097003A7610A1971A583A /* LICENSE */,
+				72A122240B9CD156071397D894EA38B5 /* README.md */,
+				92F45B80B33CC9C04A24806B79A60AD0 /* XKBaseController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		8B67514AF447F8CD25A8EE11721C6762 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,37 +226,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EDEDE5E6CC9DF2230FFFCEF2E52844D /* XKBaseController */ = {
-			isa = PBXGroup;
-			children = (
-				D06C48B6CF635F73D87F424E95A2D9ED /* ReplaceMe.m */,
-				3A59EA4864B91843F2006E651B8497C4 /* Pod */,
-				AAA3EAD4F4D99EBC01BF1E7703630F09 /* Support Files */,
-			);
-			name = XKBaseController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AAA3EAD4F4D99EBC01BF1E7703630F09 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EDE4887BAD37FAC1EB7747CEC7F2837F /* Info.plist */,
-				F043A6A102D90536473923CFFEEBF806 /* XKBaseController.modulemap */,
-				36602330C4BE27BC06E410D662851E01 /* XKBaseController.xcconfig */,
-				0802D9D50547835FB7013FF87CBEE8EB /* XKBaseController-dummy.m */,
-				24769F88335D66D2C85A177D19819ADB /* XKBaseController-prefix.pch */,
-				47BCE5FAE15EDCA689ED43DD2275685E /* XKBaseController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XKBaseController";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F435D6B5BF1067204F783C22250B3F19 /* XKBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				17E51A3A844141B2293A8894A916CBE5 /* XKBaseControllerConfig.h */,
+				1860411C44FCC152B4890BBAFB88248C /* XKBaseControllerConfig.m */,
+				332647C3BA8DF86EE6377097892D98AE /* XKBaseNavigationController.h */,
+				C46749C95C901FE63767022722AC20C7 /* XKBaseNavigationController.m */,
+				0E944DB1DB8E8CF9F8699D0606373038 /* XKBaseTabBarController.h */,
+				A2BA40A1006E2705A1782CEEFF1A5915 /* XKBaseTabBarController.m */,
+				DC481736D3B3803838BE33537C3F1128 /* XKBaseTableViewController.h */,
+				D2EAEB339C78A97D5864173514E67E62 /* XKBaseTableViewController.m */,
+				6C70F2E52ECF1324E9E3782F1E5C8E0C /* XKBaseViewController.h */,
+				1D97C79EBE74CB2D0B4912C1F7DBF50B /* XKBaseViewController.m */,
+				87D1A006CF2ED3F8A072B7118521D83C /* Pod */,
+				61F5CCB6B07E987A2767FB3CC3A5F79F /* Support Files */,
+			);
+			name = XKBaseController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F3531D1036CCB38E63706CC5FF35773 /* Headers */ = {
+		78E081F77A420E2A57F92F2827A04D28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABFA6904DAA52EF3EFF0C3F00574BC1 /* XKBaseController-umbrella.h in Headers */,
+				7FD643880B2F776E24894C1736E0A646 /* XKBaseController-umbrella.h in Headers */,
+				17C0CC2C8BABDF2D260070FAA79C560F /* XKBaseControllerConfig.h in Headers */,
+				4713B1B10AE037749967F222E6D0759B /* XKBaseNavigationController.h in Headers */,
+				046941D17D3BB4D63058C030AB98417B /* XKBaseTabBarController.h in Headers */,
+				5AD99D44B669CE02D315A1CCE714DC71 /* XKBaseTableViewController.h in Headers */,
+				782B9F3E8739625BD053907B6CC1FF1E /* XKBaseViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +331,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE55F9C8C3343E1F85F80A3396086B93 /* Build configuration list for PBXNativeTarget "XKBaseController" */;
 			buildPhases = (
-				4F3531D1036CCB38E63706CC5FF35773 /* Headers */,
-				55C20E853F1AA014DFE15525F5C2B059 /* Sources */,
+				78E081F77A420E2A57F92F2827A04D28 /* Headers */,
+				CAD4FEA598191408B1BDFD04BA172E4D /* Sources */,
 				C2589730BF2290BEF2551DB8AA7619FB /* Frameworks */,
 				08923568B78BEB3764CE8D7ED1E4E525 /* Resources */,
 			);
@@ -366,12 +398,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55C20E853F1AA014DFE15525F5C2B059 /* Sources */ = {
+		CAD4FEA598191408B1BDFD04BA172E4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FAE6A799AADB8A5C21B195F39B83ED1 /* ReplaceMe.m in Sources */,
-				38C6C4B9D8E4EF161F87182F75F9F5E9 /* XKBaseController-dummy.m in Sources */,
+				F86705203831F15C726FEAA558D2811E /* XKBaseController-dummy.m in Sources */,
+				46D753C2DE364A6583161E1699E850D5 /* XKBaseControllerConfig.m in Sources */,
+				103B9646154ACE7C956EA85CB8F6B75A /* XKBaseNavigationController.m in Sources */,
+				900F4E20FAA3619ECD4A85C82711F3EF /* XKBaseTabBarController.m in Sources */,
+				64209BFA02531285BFD20190AA13F98D /* XKBaseTableViewController.m in Sources */,
+				8CE2DDC01E69B3DA63D26C6DE8940A41 /* XKBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +447,7 @@
 /* Begin XCBuildConfiguration section */
 		22484665DA7829BD693178563B10A8FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36602330C4BE27BC06E410D662851E01 /* XKBaseController.xcconfig */;
+			baseConfigurationReference = FA8EEDA50F7766B51C8989BE09949868 /* XKBaseController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,7 +544,7 @@
 		};
 		6898EF908E360FA357BF8BB1DB25E576 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36602330C4BE27BC06E410D662851E01 /* XKBaseController.xcconfig */;
+			baseConfigurationReference = FA8EEDA50F7766B51C8989BE09949868 /* XKBaseController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
