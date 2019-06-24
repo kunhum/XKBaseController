@@ -22,9 +22,16 @@
     if (self.navigationItem.rightBarButtonItem) {
         self.navigationItem.rightBarButtonItem.image = [self.navigationItem.rightBarButtonItem.image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self xk_configView];
+    });
 }
-
 #pragma mark - 公共方法
+#pragma mark view did load 之后下一帧执行
+- (void)xk_configView {
+    
+}
 #pragma mark 显示导航栏黑线
 - (void)xk_showNavigationBarBlackLine {
     UIImageView* blackLineImageView = [self getBarBlackLine];

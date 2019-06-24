@@ -291,6 +291,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -355,18 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/XKBaseController/XKBaseController.framework",
 				"${BUILT_PRODUCTS_DIR}/XKCategory/XKCategory.framework",
 				"${BUILT_PRODUCTS_DIR}/XKInsertLimit/XKInsertLimit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKBaseController.framework",
@@ -375,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XKBaseController_Example/Pods-XKBaseController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		704D06326E942D719C3CEC86 /* [CP] Check Pods Manifest.lock */ = {

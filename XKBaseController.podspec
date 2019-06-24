@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKBaseController'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'OC常用基类'
 
 # This description is used to generate tags and improve search results.
