@@ -54,6 +54,14 @@
     [self popViewControllerAnimated:YES];
 }
 
+#pragma mark 适配脑残iOS14.0 rootViewController 的 tabbar消失的问题
+- (NSArray<__kindof UIViewController *> *)popToRootViewControllerAnimated:(BOOL)animated {
+    if (self.viewControllers.count > 1) {
+        self.topViewController.hidesBottomBarWhenPushed = NO;
+    }
+    return [super popToRootViewControllerAnimated:animated];
+}
+
 #pragma mark- UIGestureRecognizerDelegate
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {

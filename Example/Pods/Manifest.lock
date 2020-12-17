@@ -1,6 +1,6 @@
 PODS:
   - MJRefresh (3.2.0)
-  - XKBaseController (1.0.6):
+  - XKBaseController (1.0.7):
     - XKCategory
   - XKCategory (1.1.3):
     - "XKCategory/NSDate+xkCategory (= 1.1.3)"
@@ -31,7 +31,7 @@ DEPENDENCIES:
   - XKBaseController (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com.cnpmjs.org/CocoaPods/Specs.git:
     - MJRefresh
     - XKCategory
     - XKInsertLimit
@@ -42,10 +42,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
-  XKBaseController: 708b57dcf810d85f012e97405df291903d89941e
+  XKBaseController: 33706c995b132caa6b18b725ed4c76811eb150b1
   XKCategory: 53f7add863d461e2a57af08305dd375a87a8b69a
   XKInsertLimit: 5864d08ea65750cf40a5c00f06ceac4c842a61fa
 
 PODFILE CHECKSUM: baa0d064f8baedcd105c6d6f09ffb5b581762653
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.9.3
